@@ -1,8 +1,11 @@
 def prime?(num)
-  range = (1..100)
-  range.each do |el| 
-    unless num % el != 0 
-      true
-    end
-  end
+  position = 2
+  return false if num == 1
+  while position < num 
+    if num % position == 0
+      return false
+    end 
+    position += 1
+  end   
+  return true
 end
