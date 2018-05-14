@@ -4,5 +4,5 @@ def prime?(num)
     unless num % el != 0 
       true
     end
-
+  end
 end
