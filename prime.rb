@@ -1,14 +1,6 @@
 def prime?(num)
-  position = 2
-  return false if num == 1 
-  while position < num 
-    unless position == num
-      if num % position == 0
-        return false
-      else 
-        return true
-      end 
-    end
-    position += 1
-  end   
+  for el in 2..(n - 1)
+    if (num % d) == 0
+      return false
+  end
 end
