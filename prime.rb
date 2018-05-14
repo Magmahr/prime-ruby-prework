@@ -7,5 +7,4 @@ def prime?(num)
     end 
     position += 1
   end   
-  return true
 end
