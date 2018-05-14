@@ -3,4 +3,4 @@ def prime(num)
     if num % el == 0
       false
     end  
-    
+end    
