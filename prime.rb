@@ -1,2 +1,2 @@
 def prime(num)
-  for el in 
+  for el in 2..
