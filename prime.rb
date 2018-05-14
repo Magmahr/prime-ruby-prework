@@ -1,6 +1,3 @@
 def prime(num)
-  for el in 2..(num-1)
-    if num % el == 0
-      false
-    end  
-end    
+  (2..n/2).none?{|i| n % i == 0}
+end
