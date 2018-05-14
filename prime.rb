@@ -3,6 +3,6 @@ def prime?(num)
     if (num % d) == 0
       return false
     else 
-      return ture
+      return true
   end
 end
