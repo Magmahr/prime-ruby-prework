@@ -1,4 +1,8 @@
 def prime?(num)
   range = (1..100)
- if num % el != 0 && num % num != 0
+  range.each do |el| 
+    unless num % el != 0 
+      true
+    end
+
 end
