@@ -1,3 +1,4 @@
 def prime?(num)
- if num % 1 == 0 && num % num == 0
+  range = (1..100)
+ if num % el != 0 && num % num != 0
 end
