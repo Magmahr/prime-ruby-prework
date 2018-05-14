@@ -1,3 +1,3 @@
 def prime?(num)
- if num % el == 0 && num 
+ if num % 1 == 0 && num % num == 0
 end
